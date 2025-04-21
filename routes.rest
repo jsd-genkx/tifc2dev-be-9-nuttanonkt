@@ -1,0 +1,21 @@
+### Get all books
+GET http://localhost:3000/books
+Content-Type: application/json
+
+### Get book by ID
+GET http://localhost:3000/books/1
+Content-Type: application/json
+
+
+### Get books filtered by genre (e.g., Fiction)
+GET http://localhost:3000/books?genre=Fiction
+Content-Type: application/json
+
+
+### Get books filtered by genre (e.g., Dystopian)
+GET http://localhost:3000/books?genre=Dystopian
+Content-Type: application/json
+
+### Get a book by ID (non-existent)
+GET http://localhost:3000/books/3
+Content-Type: application/json
